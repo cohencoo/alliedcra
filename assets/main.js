@@ -1,13 +1,14 @@
 const renderFooter = document.querySelector("footer")
 const menu = document.querySelector('.mobile-menu')
 const banner = document.querySelector('.banner')
+const directory = document.location.href.includes('alliedcra.org') ? "" : "assets/"
 const interval = 2500
 let index = 1
 
 setInterval(() => {
     if (index >= 8) index = 1
     else index++
-    banner.style.backgroundImage = `linear-gradient(rgba(0, 0, 0, 0.25), rgba(0, 0, 0, 0.25)), url("assets/${index}.jpg")`
+    banner.style.backgroundImage = `linear-gradient(rgba(0, 0, 0, 0.25), rgba(0, 0, 0, 0.25)), url("${directory}${index}.jpg")`
 }, interval)
 
 const footer = `
