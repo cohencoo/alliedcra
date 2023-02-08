@@ -15,24 +15,10 @@ const footer = `
     <div class="contact-container">
         <div class="contact">
             <span class="box">
-                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-phone-outgoing"><polyline points="23 7 23 1 17 1"></polyline><line x1="16" y1="8" x2="23" y2="1"></line><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"></path></svg>
-                Phone: 
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-facebook"><path d="M18 2h-3a5 5 0 0 0-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 0 1 1-1h3z"></path></svg>
+                Facebook: 
             </span>
-            <a href="tel:555-555-5555">555-555-5555</a>
-        </div>
-        <div class="contact">
-            <span class="box">
-                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-mail"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"></path><polyline points="22,6 12,13 2,6"></polyline></svg>
-                Email:
-            </span>
-            <a href="mailto:example@outlook.com">example@outlook.com</a>
-        </div>
-        <div class="contact">
-            <span class="box">
-                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-map"><polygon points="1 6 1 22 8 18 16 22 23 18 23 2 16 6 8 2 1 6"></polygon><line x1="8" y1="2" x2="8" y2="18"></line><line x1="16" y1="6" x2="16" y2="22"></line></svg>
-                Location: 
-            </span>
-            1234 Main St. City, State 12345
+            <a target="_blank" href="https://www.facebook.com/groups/129708037211696">https://www.facebook.com/groups/129708037211696</a>
         </div>
     </div>
 
@@ -79,7 +65,6 @@ menu.addEventListener('click', () => {
         <div class="links">
             <a target="_blank" href="pages/minutes.html">Meeting Minutes</a>
             <a target="_blank" href="pages/pdf/CentralRegionMeeting2022.pdf">CRA 2022 Meeting</a>
-            <a target="_blank" href="pages/pdf/2022CRALunchMenu.pdf">Saturday Lunch Menu</a>
         </div>
         ${footer}
     `
