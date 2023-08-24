@@ -1,6 +1,6 @@
 const renderFooter = document.querySelector("footer")
-const menu = document.querySelector('.mobile-menu')
-const banner = document.querySelector('.banner')
+const menu = document.querySelector(".mobile-menu")
+const banner = document.querySelector(".banner")
 const interval = 2500
 let index = 1
 
@@ -50,14 +50,15 @@ const footer = `
 
 if (renderFooter) renderFooter.innerHTML = footer
 
-menu.addEventListener('click', () => {
-    const div = document.createElement('div')
-    const close = document.createElement('div')
-    
-    div.classList.add('menu')
-    close.addEventListener('click', () => div.remove())
-    close.classList.add('close')
-    close.innerHTML = '<svg xmlns="http://www.w3.org/2000/svg" style="width: 2rem; height: 2rem" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-x"><line x1="18" y1="6" x2="6" y2="18"></line><line x1="6" y1="6" x2="18" y2="18"></line></svg>'
+menu.addEventListener("click", () => {
+    const div = document.createElement("div")
+    const close = document.createElement("div")
+
+    div.classList.add("menu")
+    close.addEventListener("click", () => div.remove())
+    close.classList.add("close")
+    close.innerHTML =
+        '<svg xmlns="http://www.w3.org/2000/svg" style="width: 2rem; height: 2rem" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-x"><line x1="18" y1="6" x2="6" y2="18"></line><line x1="6" y1="6" x2="18" y2="18"></line></svg>'
 
     div.innerHTML = `
         <div style="display: flex; align-items: center">
@@ -68,9 +69,13 @@ menu.addEventListener('click', () => {
             </div>
         </div>
 
+        <h2 style="margin-top: 2rem">CRA 2023 Meeting</h2>
+        <a target="_blank" href="pages/pdf/2023 Central Region Allied Orders Meeting.pdf">CRA 2023 Meeting</a>
+
         <h2 style="margin-top: 2rem">Meeting Information</h2>
         <div class="links">
             <a target="_blank" href="pages/minutes.html">Meeting Minutes</a>
+            <a target="_blank" href="pages/pdf/2023 Central Region Allied Orders Meeting.pdf">CRA 2023 Meeting</a>
             <a target="_blank" href="pages/pdf/CentralRegionMeeting2022.pdf">CRA 2022 Meeting</a>
         </div>
         ${footer}
