@@ -31,6 +31,15 @@ const footer = `
 
     <hr>
 
+    <h2>2024 CRA Conference</h2>
+    <div class="link-container">
+        <a style="display: flex; gap: 10px; align-items: center;" target="_blank" href="pages/pdf/2024 CRA Conference3331.pdf">
+        <span style="width: 10px; height: 10px; border-radius: 100rem; background: #2e5cf2; display: block;"></span>
+        CRA 2024 Meeting</a>
+    </div>
+
+    <hr>
+
     <h2>Links</h2>
     <div class="link-container">
         <a target="_blank" href="pages/pdf/CRA Bylaws 2017.pdf">BYLAWS LINK</a>
@@ -68,9 +77,6 @@ menu.addEventListener("click", () => {
                 <p class="description" style="font-weight: 400; text-transform: uppercase; margin: 0; color: #555; font-size: 0.6rem">Allied Orders of the Grand Army of <br> the Republic</p>
             </div>
         </div>
-
-        <h2 style="margin-top: 2rem">CRA 2023 Meeting</h2>
-        <a target="_blank" href="pages/pdf/2023 Central Region Allied Orders Meeting.pdf">CRA 2023 Meeting</a>
 
         <h2 style="margin-top: 2rem">Meeting Information</h2>
         <div class="links">
