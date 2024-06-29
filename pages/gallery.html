@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>War Veterans Gallery</title>
+        <link rel="stylesheet" href="../assets/style.css" />
+        <link rel="stylesheet" href="styles.css" />
+    </head>
+    <body>
+        <style>
+            body {
+                background-color: #f8f9fa;
+                margin: 0;
+                padding: 20px;
+            }
+
+            .gallery-container {
+                display: grid;
+                grid-template-columns: repeat(auto-fill, minmax(500px, 1fr));
+                gap: 10px;
+            }
+
+            .gallery-item {
+                overflow: hidden;
+                position: relative;
+            }
+
+            .gallery-item img {
+                width: 100%;
+                height: auto;
+                display: block;
+                transition: transform 0.3s ease;
+            }
+
+            .gallery-item:hover img {
+                transform: scale(1.1);
+            }
+
+            @media (max-width: 600px) {
+                .gallery-container {
+                    grid-template-columns: 1fr;
+                }
+            }
+        </style>
+        <nav>
+            <div class="trademarks">
+                <a href="/"><img src="../assets/logo.png" class="logo" alt="Logo" /></a>
+                <div>
+                    <h2>Allied Orders CRA</h2>
+                    <p class="description">Allied Orders of the Grand Army of the Republic</p>
+                </div>
+            </div>
+            <div class="links">
+                <a target="_blank" href="gallery.html">Gallery</a>
+                <a target="_blank" href="minutes.html">Meeting Minutes</a>
+                <a
+                    style="display: flex; gap: 10px; align-items: center;"
+                    target="_blank"
+                    href="pdf/2024 CRA Conference3331.pdf"
+                >
+                    <span
+                        style="
+                            width: 10px;
+                            height: 10px;
+                            border-radius: 100rem;
+                            background: #2e5cf2;
+                            display: block;
+                        "
+                    ></span>
+                    CRA 2024 Meeting</a
+                >
+            </div>
+            <div class="mobile-menu">
+                Menu
+                <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    style="margin-left: 1rem; width: 2rem; height: 2rem;"
+                    viewBox="0 0 24 24"
+                    fill="none"
+                    stroke="currentColor"
+                    stroke-width="2.4"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    class="feather feather-menu"
+                >
+                    <line x1="3" y1="12" x2="21" y2="12"></line>
+                    <line x1="3" y1="6" x2="21" y2="6"></line>
+                    <line x1="3" y1="18" x2="21" y2="18"></line>
+                </svg>
+            </div>
+        </nav>
+
+        <br /><br /><br />
+        <div class="gallery-container">
+            <div class="gallery-item">
+                <img src="gallery/2023cra_7977.jpg" alt="Image 2023cra_7977" />
+            </div>
+            <div class="gallery-item">
+                <img src="gallery/2023cra_7982.jpg" alt="Image 2023cra_7982" />
+            </div>
+            <div class="gallery-item">
+                <img src="gallery/2023cra_7990.jpg" alt="Image 2023cra_7990" />
+            </div>
+            <div class="gallery-item">
+                <img src="gallery/2023cra_7995.jpg" alt="Image 2023cra_7995" />
+            </div>
+            <div class="gallery-item">
+                <img src="gallery/2023cra_8012.jpg" alt="Image 2023cra_8012" />
+            </div>
+            <div class="gallery-item">
+                <img src="gallery/2023cra_8017.jpg" alt="Image 2023cra_8017" />
+            </div>
+            <div class="gallery-item">
+                <img src="gallery/2023cra_9034.jpg" alt="Image 2023cra_9034" />
+            </div>
+        </div>
+    </body>
+</html>

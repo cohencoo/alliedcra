@@ -42,6 +42,7 @@ const footer = `
 
     <h2>Links</h2>
     <div class="link-container">
+        <a target="_blank" href="pages/gallery.html">Gallery</a>
         <a target="_blank" href="pages/pdf/CRA Bylaws 2017.pdf">BYLAWS LINK</a>
         <a target="_blank" href="pages/officers.html">Your CRA Officers</a>
         <a target="_blank" href="pages/pdf/Central Region brochure.pdf">The Central Region Association Informational Brochure </a>
@@ -77,6 +78,10 @@ menu.addEventListener("click", () => {
                 <p class="description" style="font-weight: 400; text-transform: uppercase; margin: 0; color: #555; font-size: 0.6rem">Allied Orders of the Grand Army of <br> the Republic</p>
             </div>
         </div>
+
+        <br>
+        <h2 style="font-weight: 600; margin: 0">Gallery</h2>
+        <a target="_blank" href="pages/gallery.html">See gallery photos</a>
 
         <h2 style="margin-top: 2rem">Meeting Information</h2>
         <div class="links">
